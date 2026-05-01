@@ -94,34 +94,33 @@
                 <p class="text-gray-600">Fill the form below to join the community.</p>
             </div>
 
-            <form class="bg-white p-8 rounded-xl shadow-sm space-y-6">
+            <form action="proc_join.php" method="POST" class="bg-white p-8 rounded-xl shadow-sm space-y-6">
 
                 <div class="grid md:grid-cols-2 gap-6">
 
-                    <input type="text" placeholder="Full Name"
+                    <input type="text" name="fullname" placeholder="Full Name" required
                         class="border p-3 rounded-md w-full focus:ring-2 focus:ring-umunna outline-none">
 
-                    <input type="text" placeholder="Phone Number"
+                    <input type="text" name="phone" placeholder="Phone Number" required
                         class="border p-3 rounded-md w-full focus:ring-2 focus:ring-umunna outline-none">
 
                 </div>
 
-                <input type="email" placeholder="Email Address"
+                <input type="email" name="email" placeholder="Email Address" required
                     class="border p-3 rounded-md w-full focus:ring-2 focus:ring-umunna outline-none">
 
-                <input type="text" placeholder="Location / Community"
+                <input type="text" name="location" placeholder="Location / Community" required
                     class="border p-3 rounded-md w-full focus:ring-2 focus:ring-umunna outline-none">
 
-                <select class="border p-3 rounded-md w-full focus:ring-2 focus:ring-umunna outline-none">
-
-                    <option>Select Membership Type</option>
+                <select name="membership" required
+                    class="border p-3 rounded-md w-full focus:ring-2 focus:ring-umunna outline-none">
+                    <option value="">Select Membership Type</option>
                     <option>General Member</option>
                     <option>Volunteer</option>
                     <option>Project Contributor</option>
-
                 </select>
 
-                <textarea rows="5" placeholder="Why do you want to join?"
+                <textarea name="reason" rows="5" placeholder="Why do you want to join?" required
                     class="border p-3 rounded-md w-full focus:ring-2 focus:ring-umunna outline-none"></textarea>
 
                 <button type="submit"

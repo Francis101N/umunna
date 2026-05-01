@@ -30,7 +30,7 @@
     <style>
         body {
             overflow: hidden;
-            background-color: #134026 ;
+            background-color: #134026;
         }
     </style>
 </head>
@@ -55,7 +55,7 @@
     <!-- Redirect Script -->
     <script>
         setTimeout(function() {
-            window.location.href = "home.php";
+            window.location.href = "home";
         }, 12000);
     </script>
 

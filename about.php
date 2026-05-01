@@ -56,7 +56,7 @@
 
             <div class="rounded-xl overflow-hidden shadow-sm">
                 <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.46 PM.jpeg"
-                    class="w-full h-[350px] object-cover hover:scale-105 transition duration-500">
+                    class="w-full h-[450px] object-cover hover:scale-105 transition duration-500">
             </div>
 
             <div>
@@ -101,7 +101,7 @@
 
                 <!-- Image -->
                 <div class="h-80 overflow-hidden">
-                    <img src="assets/images/chairman2.jpeg"
+                    <img src="assets/images/chairman7.jpeg"
                         class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                 </div>
 
@@ -129,7 +129,7 @@
 
                 <!-- Image -->
                 <div class="h-80 overflow-hidden">
-                    <img src=""
+                    <img src="assets/images/reverend.jpeg"
                         class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                 </div>
 
@@ -145,7 +145,8 @@
                     </p>
 
                     <h3 class="font-semibold text-lg">Development Coordinator</h3>
-                    <span class="text-xs text-gray-200">Vision Statement</span>
+                    <h6 class="font-semibold text-red-600">Daniel Ubeh</h6>
+                    <span class="text-xs text-gray-300">Vision Statement</span>
 
                 </div>
 
@@ -178,7 +179,7 @@
         <div class="max-w-6xl mx-auto rounded-2xl overflow-hidden shadow-lg">
 
             <img src="assets/images/community2.jpg"
-                class="w-full h-[420px] object-cover hover:scale-105 transition duration-500">
+                class="w-full h-[500px] object-cover hover:scale-105 transition duration-500">
 
         </div>
 
@@ -225,10 +226,10 @@
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
 
-            <img src="assets/images/gallery1.jpg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
-            <img src="assets/images/gallery2.jpg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
-            <img src="assets/images/gallery3.jpg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
-            <img src="assets/images/gallery4.jpg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
+            <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 3.01.14 PM.jpeg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
+            <img src="assets/images/community_outreach/DSC_2432.jpg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
+            <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.55 PM (1).jpeg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
+            <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.43 PM.jpeg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
 
         </div>
 

@@ -36,7 +36,7 @@
     <section class="relative h-[45vh] flex items-center justify-center text-center">
 
         <div class="absolute inset-0">
-            <img src="assets/images/projects-hero.jpg"
+            <img src=""
                 class="w-full h-full object-cover">
 
             <div class="absolute inset-0 bg-black/60"></div>
@@ -51,15 +51,15 @@
 
     </section>
 
-    <!-- PROJECT FILTER HEADER (UI FEEL ONLY) -->
+    <!-- PROJECT FILTER HEADER -->
     <section class="py-10 px-6 md:px-20">
 
         <div class="max-w-6xl mx-auto flex flex-wrap gap-3 justify-center">
 
-            <button class="px-4 py-2 rounded-full bg-umunna text-white text-sm">All</button>
-            <button class="px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm">Infrastructure</button>
-            <button class="px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm">Education</button>
-            <button class="px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm">Community</button>
+            <button class="filter-btn px-4 py-2 rounded-full bg-umunna text-white text-sm" data-filter="all">All</button>
+            <button class="filter-btn px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm" data-filter="Infrastructure">Community Outreach</button>
+            <button class="filter-btn px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm" data-filter="Education">Medical Outreach</button>
+            <button class="filter-btn px-4 py-2 rounded-full bg-gray-100 text-gray-700 text-sm" data-filter="Community">Children Day </button>
 
         </div>
 
@@ -71,128 +71,208 @@
         <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
 
             <!-- PROJECT 1 -->
-            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
-                <img src="assets/images/project1.jpg"
-                    class="h-52 w-full object-cover">
-
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/dji_fly_20241224_141550_0085_1735067140989_video.mp4.00_00_14_24.Still002.bmp" class="h-52 w-full object-cover">
                 <div class="p-5">
-
-                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Infrastructure</span>
-
-                    <h3 class="text-lg font-semibold mt-3">Community Road Rehabilitation</h3>
-
-                    <p class="text-gray-600 text-sm mt-2">
-                        Restoration of key access roads to improve transportation and mobility within the community.
-                    </p>
-
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Community Road Rehabilitation</h3>
+                    <p class="text-gray-600 text-sm mt-2">Restoration of key access roads.</p> -->
                 </div>
-
             </div>
 
             <!-- PROJECT 2 -->
-            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
-                <img src="assets/images/project2.jpg"
-                    class="h-52 w-full object-cover">
-
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251113_090434_860.jpg" class="h-52 w-full object-cover">
                 <div class="p-5">
-
-                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Education</span>
-
-                    <h3 class="text-lg font-semibold mt-3">Youth Skill Development Program</h3>
-
-                    <p class="text-gray-600 text-sm mt-2">
-                        Training initiative aimed at equipping young people with digital and vocational skills.
-                    </p>
-
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Youth Skill Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Empowering youth with skills.</p> -->
                 </div>
-
             </div>
 
             <!-- PROJECT 3 -->
-            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
-                <img src="assets/images/project3.jpg"
-                    class="h-52 w-full object-cover">
-
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2438.JPG" class="h-52 w-full object-cover">
                 <div class="p-5">
-
-                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community</span>
-
-                    <h3 class="text-lg font-semibold mt-3">Clean Water Initiative</h3>
-
-                    <p class="text-gray-600 text-sm mt-2">
-                        Installation of boreholes to provide clean and accessible water for residents.
-                    </p>
-
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Clean Water Initiative</h3>
+                    <p class="text-gray-600 text-sm mt-2">Access to clean water.</p> -->
                 </div>
-
             </div>
 
             <!-- PROJECT 4 -->
-            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
-                <img src="assets/images/project4.jpg"
-                    class="h-52 w-full object-cover">
-
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.45 PM (1).jpeg" class="h-52 w-full object-cover">
                 <div class="p-5">
-
-                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community</span>
-
-                    <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
-
-                    <p class="text-gray-600 text-sm mt-2">
-                        Construction of a central meeting point for community engagement and decision-making.
-                    </p>
-
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Street Lighting</h3>
+                    <p class="text-gray-600 text-sm mt-2">Improving night safety.</p> -->
                 </div>
-
             </div>
 
             <!-- PROJECT 5 -->
-            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
-                <img src="assets/images/project5.jpg"
-                    class="h-52 w-full object-cover">
-
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251115_101408_391.jpg" class="h-52 w-full object-cover">
                 <div class="p-5">
-
-                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Education</span>
-
-                    <h3 class="text-lg font-semibold mt-3">Scholarship Support Program</h3>
-
-                    <p class="text-gray-600 text-sm mt-2">
-                        Financial support for students to promote access to quality education.
-                    </p>
-
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
+                    <p class="text-gray-600 text-sm mt-2">Supporting students.</p> -->
                 </div>
-
             </div>
 
             <!-- PROJECT 6 -->
-            <div class="rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-
-                <img src="assets/images/project6.jpg"
-                    class="h-52 w-full object-cover">
-
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2536.jpg" class="h-52 w-full object-cover">
                 <div class="p-5">
-
-                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Infrastructure</span>
-
-                    <h3 class="text-lg font-semibold mt-3">Street Lighting Project</h3>
-
-                    <p class="text-gray-600 text-sm mt-2">
-                        Installation of solar-powered street lights to improve safety and visibility at night.
-                    </p>
-
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Central meeting space.</p> -->
                 </div>
+            </div>
 
+            <!-- PROJECT 7 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.46 PM.jpeg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Street Lighting</h3>
+                    <p class="text-gray-600 text-sm mt-2">Improving night safety.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 8 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251118_094523_057.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
+                    <p class="text-gray-600 text-sm mt-2">Supporting students.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 9 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2139.JPG" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Central meeting space.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 10 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/DSC_2432.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Street Lighting</h3>
+                    <p class="text-gray-600 text-sm mt-2">Improving night safety.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 11 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251113_091808_438.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
+                    <p class="text-gray-600 text-sm mt-2">Supporting students.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 12 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2083.JPG" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Central meeting space.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 13 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.50 PM.jpeg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Street Lighting</h3>
+                    <p class="text-gray-600 text-sm mt-2">Improving night safety.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 14 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251114_122444_817.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
+                    <p class="text-gray-600 text-sm mt-2">Supporting students.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 15 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2477.JPG" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Central meeting space.</p> -->
+                </div>
             </div>
 
         </div>
 
     </section>
+
+    <!-- ANIMATION STYLE -->
+    <style>
+        .project-card {
+            transition: all 0.3s ease;
+        }
+    </style>
+
+    <!-- FILTER SCRIPT -->
+    <script>
+        const buttons = document.querySelectorAll(".filter-btn");
+        const projects = document.querySelectorAll(".project-card");
+
+        buttons.forEach(button => {
+            button.addEventListener("click", () => {
+
+                // Active button style
+                buttons.forEach(btn => {
+                    btn.classList.remove("bg-umunna", "text-white");
+                    btn.classList.add("bg-gray-100", "text-gray-700");
+                });
+
+                button.classList.add("bg-umunna", "text-white");
+                button.classList.remove("bg-gray-100", "text-gray-700");
+
+                const filter = button.getAttribute("data-filter");
+
+                projects.forEach(project => {
+                    const category = project.getAttribute("data-category");
+
+                    if (filter === "all" || category === filter) {
+                        project.style.display = "block";
+                        project.style.opacity = "0";
+
+                        setTimeout(() => {
+                            project.style.opacity = "1";
+                        }, 50);
+
+                    } else {
+                        project.style.opacity = "0";
+
+                        setTimeout(() => {
+                            project.style.display = "none";
+                        }, 300);
+                    }
+                });
+
+            });
+        });
+    </script>
 
     <!-- IMPACT SUMMARY -->
     <section class="bg-gray-50 py-20 px-6 md:px-20 text-center">
@@ -211,7 +291,7 @@
         <h2 class="text-3xl font-bold mb-4">Want to Support a Project?</h2>
         <p class="mb-6 text-gray-200">Join us in building a stronger and better community.</p>
 
-        <a href="contact.php"
+        <a href="contact"
             class="bg-white text-umunna px-6 py-3 rounded-md font-semibold hover:scale-105 transition">
             Get Involved
         </a>

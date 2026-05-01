@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umunna Development</title>
+    <title>Home | Umunna Development</title>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="assets/images/favicon.jpeg">
@@ -80,9 +80,15 @@
 
         <!-- Background Image -->
         <div class="absolute inset-0">
-            <img src="assets/images/community_outreach/dji_fly_20241224_141550_0085_1735067140989_video.mp4.00_00_14_24.Still002.bmp"
-                class="w-full h-full object-cover hero-zoom">
+            <!-- Image 1 -->
+            <img id="bg1" src="assets/images/community_outreach/dji_fly_20241224_141550_0085_1735067140989_video.mp4.00_00_14_24.Still002.bmp"
+                class="w-full h-full object-cover absolute inset-0 transition-opacity duration-1000 opacity-100 hero-zoom">
 
+            <!-- Image 2 -->
+            <img id="bg2" src="assets/images/medical_outreach/IMG_20251119_073803_607.jpg"
+                class="w-full h-full object-cover absolute inset-0 transition-opacity duration-1000 opacity-0 hero-zoom">
+
+            <!-- Overlay -->
             <div class="absolute inset-0 bg-black/60"></div>
         </div>
 
@@ -132,7 +138,7 @@
             </h1>
 
             <p class="text-gray-200 max-w-2xl mx-auto text-lg md:text-xl mb-8">
-                Building unity, growth, and sustainable development in our community.
+                Care. Empower. Transform. Driving sustainable community impact.
             </p>
 
             <div class="flex flex-col md:flex-row justify-center gap-4">
@@ -141,7 +147,7 @@
                     Join the Community
                 </a>
 
-                <a href="projects.php"
+                <a href="projects"
                     class="border-2 border-white text-white px-6 py-3 rounded-md font-semibold hover:bg-white hover:text-black transition">
                     View Projects
                 </a>
@@ -153,27 +159,72 @@
 
     <!-- TOGGLE SCRIPT -->
     <script>
-        const menuBtn = document.getElementById("menuBtn");
-        const mobileMenu = document.getElementById("mobileMenu");
+        document.addEventListener("DOMContentLoaded", () => {
+            const menuBtn = document.getElementById("menuBtn");
+            const mobileMenu = document.getElementById("mobileMenu");
 
-        menuBtn.addEventListener("click", () => {
-            mobileMenu.classList.toggle("hidden");
+            let isOpen = false;
 
-            // change icon
-            if (menuBtn.innerHTML === "☰") {
-                menuBtn.innerHTML = "✕";
-            } else {
-                menuBtn.innerHTML = "☰";
-            }
-        });
+            const openMenu = () => {
+                mobileMenu.classList.remove("hidden");
+                menuBtn.textContent = "✕";
+                isOpen = true;
+                document.body.classList.add("overflow-hidden"); // prevent scroll
+            };
 
-        // close menu on link click
-        document.querySelectorAll("#mobileMenu a").forEach(link => {
-            link.addEventListener("click", () => {
+            const closeMenu = () => {
                 mobileMenu.classList.add("hidden");
-                menuBtn.innerHTML = "☰";
+                menuBtn.textContent = "☰";
+                isOpen = false;
+                document.body.classList.remove("overflow-hidden");
+            };
+
+            menuBtn.addEventListener("click", () => {
+                isOpen ? closeMenu() : openMenu();
+            });
+
+            // Close menu when clicking a link
+            document.querySelectorAll("#mobileMenu a").forEach(link => {
+                link.addEventListener("click", closeMenu);
+            });
+
+            // Close menu when clicking outside (optional but premium)
+            mobileMenu.addEventListener("click", (e) => {
+                if (e.target === mobileMenu) {
+                    closeMenu();
+                }
+            });
+
+            // Close menu on window resize (desktop switch fix)
+            window.addEventListener("resize", () => {
+                if (window.innerWidth >= 768 && isOpen) {
+                    closeMenu();
+                }
             });
         });
+
+        const bg1 = document.getElementById("bg1");
+        const bg2 = document.getElementById("bg2");
+
+        let showFirst = true;
+
+        setInterval(() => {
+            if (showFirst) {
+                bg1.classList.remove("opacity-100");
+                bg1.classList.add("opacity-0");
+
+                bg2.classList.remove("opacity-0");
+                bg2.classList.add("opacity-100");
+            } else {
+                bg1.classList.remove("opacity-0");
+                bg1.classList.add("opacity-100");
+
+                bg2.classList.remove("opacity-100");
+                bg2.classList.add("opacity-0");
+            }
+
+            showFirst = !showFirst;
+        }, 5000); // 5 seconds
     </script>
 
     <!-- ABOUT UMUNNA SECTION -->
@@ -212,7 +263,7 @@
                     <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden group transition duration-300 hover:ring-2 hover:ring-umunna hover:-translate-y-2">
                         <!-- Image -->
                         <div class="h-72 overflow-hidden">
-                            <img src="assets/images/chairman2.jpeg"
+                            <img src="assets/images/chairman7.jpeg"
                                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         </div>
 
@@ -240,7 +291,7 @@
 
                         <!-- Image -->
                         <div class="h-72 overflow-hidden">
-                            <img src="assets/images/leader2.jpg"
+                            <img src="assets/images/reverend.jpeg"
                                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         </div>
 
@@ -255,7 +306,8 @@
                                 has access to growth and opportunity.”
                             </p>
 
-                            <h3 class="font-semibold text-lg">Development Coordinator</h3>
+                            <h3 class="font-semibold text-lg">Development Lead</h3>
+                            <h6 class="font-semibold text-red-600">Daniel Ubeh</h6>
                             <span class="text-xs text-gray-300">Vision Statement</span>
 
                         </div>
@@ -298,8 +350,8 @@
 
                 <div class="p-6 text-left">
 
-                    <span class="text-xs font-semibold text-white bg-umunna px-3 py-1 rounded-full">
-                        Completed
+                    <span class="text-xs font-semibold text-white bg-yellow-600 px-3 py-1 rounded-full">
+                        Ongoing
                     </span>
 
                     <h3 class="text-lg font-bold text-black mt-4 mb-2">
@@ -324,8 +376,8 @@
 
                 <div class="p-6 text-left">
 
-                    <span class="text-xs font-semibold text-white bg-yellow-600 px-3 py-1 rounded-full">
-                        Ongoing
+                    <span class="text-xs font-semibold text-white bg-umunna px-3 py-1 rounded-full">
+                        Completed
                     </span>
 
                     <h3 class="text-lg font-bold text-black mt-4 mb-2">
@@ -506,12 +558,12 @@
             <div class="bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition duration-300 text-center p-8"
                 data-aos="zoom-in">
 
-                <img src="assets/images/chairman2.jpeg"
+                <img src="assets/images/chairman16.jpeg"
                     class="w-28 h-28 mx-auto rounded-full object-cover border-4 border-umunna"
                     alt="Leader 1">
 
                 <h3 class="text-lg font-bold text-black mt-5">Chairman</h3>
-                <p class="text-umunna font-medium">iyk Edwin Anyadigibe</p>
+                <p class="text-umunna font-medium">Iyk-Edwin Anyadigibe</p>
                 <p class="text-sm text-gray-600 mt-2">
                     Oversees community development strategy and decision-making.
                 </p>
@@ -522,14 +574,14 @@
             <div class="bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition duration-300 text-center p-8"
                 data-aos="zoom-in" data-aos-delay="150">
 
-                <img src="assets/images/leader2.jpg"
+                <img src="assets/images/boss-woman.jpeg"
                     class="w-28 h-28 mx-auto rounded-full object-cover border-4 border-black"
                     alt="Leader 2">
 
-                <h3 class="text-lg font-bold text-black mt-5">Secretary</h3>
-                <p class="text-umunna font-medium">Mrs Example Name</p>
+                <h3 class="text-lg font-bold text-black mt-5">Vice Chairperson</h3>
+                <p class="text-umunna font-medium">Iyk- Edwin Ifeoma</p>
                 <p class="text-sm text-gray-600 mt-2">
-                    Handles documentation, communication, and coordination.
+                    Assists in leadership, coordination, communication, and documentation across the organization.
                 </p>
 
             </div>
@@ -538,12 +590,12 @@
             <div class="bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition duration-300 text-center p-8"
                 data-aos="zoom-in" data-aos-delay="300">
 
-                <img src="assets/images/leader3.jpg"
+                <img src="assets/images/daniel.jpg"
                     class="w-28 h-28 mx-auto rounded-full object-cover border-4 border-umunna"
                     alt="Leader 3">
 
-                <h3 class="text-lg font-bold text-black mt-5">Project Coordinator</h3>
-                <p class="text-umunna font-medium">Mr Example Name</p>
+                <h3 class="text-lg font-bold text-black mt-5">Development Lead</h3>
+                <p class="text-umunna font-medium">Daniel Ubeh</p>
                 <p class="text-sm text-gray-600 mt-2">
                     Manages execution and monitoring of community projects.
                 </p>

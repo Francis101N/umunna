@@ -96,7 +96,7 @@
                 <!-- NEWS CARD -->
                 <div class="bg-white shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition">
 
-                    <img src="assets/images/news1.jpg" class="h-56 w-full object-cover">
+                    <img src="assets/images/Gemini_Generated_Image_si21h9si21h9si21.png" class="h-100 w-full object-cover">
 
                     <div class="p-6">
 
@@ -123,7 +123,7 @@
                 <!-- NEWS CARD -->
                 <div class="bg-white shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition">
 
-                    <img src="assets/images/news2.jpg" class="h-56 w-full object-cover">
+                    <img src="assets/images/Gemini_Generated_Image_qohph0qohph0qohp.png" class="h-100 w-full object-cover">
 
                     <div class="p-6">
 
@@ -150,7 +150,7 @@
                 <!-- NEWS CARD -->
                 <div class="bg-white shadow-sm rounded-xl overflow-hidden hover:shadow-lg transition">
 
-                    <img src="assets/images/news3.jpg" class="h-56 w-full object-cover">
+                    <img src="assets/images/Gemini_Generated_Image_92xwfu92xwfu92xw.png" class="h-100 w-full object-cover">
 
                     <div class="p-6">
 
