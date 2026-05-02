@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Umunna Development</title>
+    <title>Contact Us | Umunna Foundation</title>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="assets/images/favicon.jpeg">
@@ -59,7 +59,7 @@
 
             <div class="p-6 bg-gray-50 rounded-xl shadow-sm">
                 <h3 class="font-semibold text-lg mb-2 text-umunna">Email</h3>
-                <p class="text-gray-600">info@umunnadevelopment.org</p>
+                <p class="text-gray-600">info@umunnafoundation.org</p>
             </div>
 
             <div class="p-6 bg-gray-50 rounded-xl shadow-sm">
@@ -86,22 +86,22 @@
                 <p class="text-gray-600">We respond as quickly as possible.</p>
             </div>
 
-            <form class="grid gap-6 bg-white p-8 rounded-xl shadow-sm">
+            <form action="proc_contact.php" method="POST" class="grid gap-6 bg-white p-8 rounded-xl shadow-sm">
 
                 <div class="grid md:grid-cols-2 gap-6">
 
-                    <input type="text" placeholder="Full Name"
+                    <input type="text" name="fullname" placeholder="Full Name"
                         class="border p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-umunna">
 
-                    <input type="email" placeholder="Email Address"
+                    <input type="email" name="email" placeholder="Email Address"
                         class="border p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-umunna">
 
                 </div>
 
-                <input type="text" placeholder="Subject"
+                <input type="text" name="subject" placeholder="Subject"
                     class="border p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-umunna">
 
-                <textarea rows="6" placeholder="Your Message"
+                <textarea name="message" rows="6" placeholder="Your Message"
                     class="border p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-umunna"></textarea>
 
                 <button type="submit"

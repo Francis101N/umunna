@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Umunna Development</title>
+    <title>About Us | Umunna Foundation</title>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="assets/images/favicon.jpeg">
@@ -41,7 +41,7 @@
         </div>
 
         <div class="relative z-10 text-white">
-            <h1 class="text-4xl md:text-5xl font-bold">About Umunna Development</h1>
+            <h1 class="text-4xl md:text-5xl font-bold">About Umunna Foundation</h1>
             <p class="mt-4 text-gray-200 max-w-xl mx-auto">
                 Building unity, structure, and sustainable growth for our community.
             </p>
@@ -65,7 +65,7 @@
                 </h2>
 
                 <p class="text-gray-600 leading-relaxed">
-                    Umunna Development brings together people with a shared vision of progress,
+                    Umunna Foundation brings together people with a shared vision of progress,
                     collaboration, and sustainable community growth through structured initiatives.
                 </p>
             </div>
@@ -82,7 +82,7 @@
             <h2 class="text-3xl font-bold text-umunna mb-6">Who We Are</h2>
 
             <p class="text-gray-600 leading-relaxed">
-                Umunna Development is a community-focused organization committed to fostering unity,
+                Umunna Foundation is a community-focused organization committed to fostering unity,
                 driving development initiatives, and ensuring sustainable growth across all sectors of the community.
                 We operate with transparency, accountability, and collective participation.
             </p>
@@ -164,7 +164,7 @@
             <h2 class="text-3xl font-bold text-umunna mb-6">Our History</h2>
 
             <p class="text-gray-600 leading-relaxed">
-                Umunna Development was established with the goal of creating structured community progress.
+                Umunna Foundation was established with the goal of creating structured community progress.
                 Over the years, it has evolved into a platform that connects members, drives projects,
                 and ensures that development is carried out in a transparent and impactful way.
             </p>
@@ -258,7 +258,7 @@
             </h2>
 
             <p class="text-gray-600 max-w-2xl mx-auto">
-                Umunna Development operates through a structured leadership system that ensures transparency, accountability, and effective coordination.
+                Umunna Foundation operates through a structured leadership system that ensures transparency, accountability, and effective coordination.
             </p>
 
         </div>

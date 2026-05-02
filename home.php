@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Umunna Development</title>
+    <title>Home | Umunna Foundation</title>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="assets/images/favicon.jpeg">
@@ -134,7 +134,7 @@
         <div class="relative z-10 hero-bounce">
 
             <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-                Umunna Development
+                Umunna Foundation
             </h1>
 
             <p class="text-gray-200 max-w-2xl mx-auto text-lg md:text-xl mb-8">
@@ -243,11 +243,11 @@
             <div data-aos="fade-left">
 
                 <h2 class="text-3xl md:text-4xl font-bold text-umunna mb-6">
-                    About Umunna Development
+                    About Umunna Foundation
                 </h2>
 
                 <p class="text-gray-700 mb-5 leading-relaxed">
-                    Umunna Development is a community-driven initiative focused on fostering unity,
+                    Umunna Foundation is a community-driven initiative focused on fostering unity,
                     promoting sustainable development, and improving the quality of life within our community.
                 </p>
 
@@ -332,7 +332,7 @@
             </h2>
 
             <p class="text-gray-600 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
-                A showcase of ongoing and completed initiatives driving real impact in Umunna Development.
+                A showcase of ongoing and completed initiatives driving real impact in Umunna Foundation.
             </p>
 
         </div>
@@ -368,32 +368,6 @@
 
             <!-- Project 2 -->
             <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300"
-                data-aos="zoom-in" data-aos-delay="150">
-
-                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 3.01.14 PM.jpeg"
-                    class="h-52 w-full object-cover"
-                    alt="Project 2">
-
-                <div class="p-6 text-left">
-
-                    <span class="text-xs font-semibold text-white bg-umunna px-3 py-1 rounded-full">
-                        Completed
-                    </span>
-
-                    <h3 class="text-lg font-bold text-black mt-4 mb-2">
-                        Children Day Outreach
-                    </h3>
-
-                    <p class="text-sm text-gray-600">
-                        Celebrating, inspiring, and nurturing the future of our community.
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!-- Project 3 -->
-            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300"
                 data-aos="zoom-in" data-aos-delay="300">
 
                 <img src="assets/images/medical_outreach/IMG_20251114_092656_786.jpg"
@@ -418,6 +392,31 @@
 
             </div>
 
+            <!-- Project 3 -->
+            <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition duration-300"
+                data-aos="zoom-in" data-aos-delay="150">
+
+                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 3.01.14 PM.jpeg"
+                    class="h-52 w-full object-cover"
+                    alt="Project 2">
+
+                <div class="p-6 text-left">
+
+                    <span class="text-xs font-semibold text-white bg-umunna px-3 py-1 rounded-full">
+                        Completed
+                    </span>
+
+                    <h3 class="text-lg font-bold text-black mt-4 mb-2">
+                        Children Day Outreach
+                    </h3>
+
+                    <p class="text-sm text-gray-600">
+                        Celebrating, inspiring, and nurturing the future of our community.
+                    </p>
+
+                </div>
+
+            </div>
         </div>
 
         <!-- VIEW MORE BUTTON -->
@@ -446,7 +445,7 @@
             </h2>
 
             <p class="text-gray-100 max-w-2xl mx-auto mb-10 text-lg" data-aos="fade-up" data-aos-delay="100">
-                Join Umunna Development today and contribute to building a stronger, more united,
+                Join Umunna Foundation today and contribute to building a stronger, more united,
                 and progressive community for everyone.
             </p>
 
@@ -475,7 +474,7 @@
         <div class="max-w-6xl mx-auto text-center mb-14">
 
             <h2 class="text-3xl md:text-4xl font-bold text-umunna mb-4" data-aos="fade-up">
-                How Umunna Development Works
+                How Umunna Foundation Works
             </h2>
 
             <p class="text-gray-600 max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">
@@ -632,7 +631,7 @@
                 <div class="min-w-full md:min-w-[50%] lg:min-w-[33.33%] p-4">
                     <div class="bg-white p-8 rounded-xl shadow-sm h-full">
                         <p class="text-gray-600 text-sm mb-6">
-                            “Umunna Development has brought unity and real progress to our community.”
+                            “Umunna Foundation has brought unity and real progress to our community.”
                         </p>
                         <h4 class="font-semibold">Community Member</h4>
                     </div>
@@ -712,7 +711,7 @@
                 <div class="min-w-full md:min-w-[50%] lg:min-w-[33.33%] p-4">
                     <div class="bg-white p-8 rounded-xl shadow-sm h-full">
                         <p class="text-gray-600 text-sm mb-6">
-                            “Umunna Development is truly shaping our future.”
+                            “Umunna Foundation is truly shaping our future.”
                         </p>
                         <h4 class="font-semibold">Resident</h4>
                     </div>

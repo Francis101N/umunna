@@ -33,10 +33,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         // SMTP Settings
         $mail->isSMTP();
-        $mail->Host = 'mail.techbyfrancis.com';
+        $mail->Host = 'mail.deevant.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'portfolio@techbyfrancis.com';
-        $mail->Password = 'TECHbyfrancis101$$';
+        $mail->Username = 'info@deevant.com';
+        $mail->Password = 'dvZ.2TF3a!61Rq';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         // ----------------------------
         // 1️⃣ Email to Applicant
         // ----------------------------
-        $mail->setFrom('portfolio@techbyfrancis.com', 'Umunna Development');
+        $mail->setFrom('info@deevant.com', 'Umunna Development');
         $mail->addAddress($email);
 
         $mail->Subject = 'Application Received';
@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <strong>Reason:</strong> $reason<br><br>
 
             Regards,<br>
-            Umunna System
+            Umunna Development Team
         ";
 
         $mail->send();

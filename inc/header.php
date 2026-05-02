@@ -9,15 +9,15 @@
                     alt="Umunna Logo"
                     class="h-20 md:h-20 w-auto object-contain">
             </a>
-            
-            <!-- DESKTOP NAV -->
-            <nav class="hidden md:flex space-x-8 text-sm font-medium">
 
-                <a href="home" class="hover:text-umunna transition">Home</a>
-                <a href="about" class="hover:text-umunna transition">About</a>
-                <a href="projects" class="hover:text-umunna transition">Projects</a>
-                <a href="news" class="hover:text-umunna transition">News</a>
-                <a href="contact" class="hover:text-umunna transition">Contact</a>
+            <!-- DESKTOP NAV -->
+            <nav class="hidden md:flex space-x-4 text-sm font-medium">
+
+                <a href="home" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 hover:text-umunna transition">Home</a>
+                <a href="about" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 hover:text-umunna transition">About</a>
+                <a href="projects" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 hover:text-umunna transition">Projects</a>
+                <a href="news" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 hover:text-umunna transition">News</a>
+                <a href="contact" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 hover:text-umunna transition">Contact</a>
 
             </nav>
 
@@ -30,14 +30,15 @@
 
         <!-- MOBILE MENU -->
         <div id="mobileMenu"
-            class="hidden md:hidden flex flex-col space-y-4 px-6 pb-6 bg-white shadow-md">
+            class="hidden md:hidden flex flex-col space-y-2 px-6 pb-6 bg-white shadow-md">
 
-            <a href="home" class="hover:text-umunna transition">Home</a>
-            <a href="about" class="hover:text-umunna transition">About</a>
-            <a href="projects" class="hover:text-umunna transition">Projects</a>
-            <a href="news" class="hover:text-umunna transition">News</a>
-            <a href="contact" class="hover:text-umunna transition">Contact</a>
+            <a href="home" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 transition">Home</a>
+            <a href="about" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 transition">About</a>
+            <a href="projects" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 transition">Projects</a>
+            <a href="news" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 transition">News</a>
+            <a href="contact" class="nav-link px-3 py-2 rounded-md hover:bg-green-100 transition">Contact</a>
 
+        </div>
         </div>
 
     </header>
@@ -64,5 +65,16 @@
                 mobileMenu.classList.add("hidden");
                 menuBtn.innerHTML = "☰";
             });
+        });
+
+        const links = document.querySelectorAll(".nav-link");
+
+        links.forEach(link => {
+            // Get current page (e.g. "about")
+            const currentPage = window.location.pathname.split("/").pop();
+
+            if (link.getAttribute("href") === currentPage) {
+                link.classList.add("bg-green-100", "text-umunna");
+            }
         });
     </script>

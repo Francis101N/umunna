@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join Us | Umunna Development</title>
+    <title>Join Us | Umunna Foundation</title>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/png" href="assets/images/favicon.jpeg">
@@ -42,7 +42,7 @@
         </div>
 
         <div class="relative z-10 text-white">
-            <h1 class="text-4xl md:text-5xl font-bold">Join Umunna Development</h1>
+            <h1 class="text-4xl md:text-5xl font-bold">Join Umunna Foundation</h1>
             <p class="mt-3 text-gray-200 max-w-xl mx-auto">
                 Become part of a structured community driving real development and unity.
             </p>
