@@ -33,10 +33,10 @@
     <?php include('inc/header.php'); ?>
 
     <!-- HERO -->
-    <section class="relative h-[45vh] flex items-center justify-center text-center">
+    <section class="relative h-[55vh] flex items-center justify-center text-center">
 
         <div class="absolute inset-0">
-            <img src=""
+            <img src="assets/images/medical_outreach/IMG_20251119_073803_607 copy.jpg"
                 class="w-full h-full object-cover">
 
             <div class="absolute inset-0 bg-black/60"></div>
@@ -92,7 +92,7 @@
 
             <!-- PROJECT 3 -->
             <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
-                <img src="assets/images/Children_Day/DSC_2438.JPG" class="h-52 w-full object-cover">
+                <img src="assets/images/Children_Day/DSC_2477.JPG" class="h-52 w-full object-cover">
                 <div class="p-5">
                     <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
                     <!-- <h3 class="text-lg font-semibold mt-3">Clean Water Initiative</h3>
@@ -112,7 +112,7 @@
 
             <!-- PROJECT 5 -->
             <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
-                <img src="assets/images/medical_outreach/IMG_20251115_101408_391.jpg" class="h-52 w-full object-cover">
+                <img src="assets/images/medical_outreach/IMG_20251114_154119_127.jpg" class="h-52 w-full object-cover">
                 <div class="p-5">
                     <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
                     <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
@@ -212,7 +212,128 @@
 
             <!-- PROJECT 15 -->
             <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
-                <img src="assets/images/Children_Day/DSC_2477.JPG" class="h-52 w-full object-cover">
+                <img src="assets/images/Children_Day/DSC_2438.JPG" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Central meeting space.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 16 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.55 PM (1).jpeg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Street Lighting</h3>
+                    <p class="text-gray-600 text-sm mt-2">Improving night safety.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 17 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251114_122202_290.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
+                    <p class="text-gray-600 text-sm mt-2">Supporting students.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 18 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2855.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Central meeting space.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 19 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.47 PM.jpeg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Street Lighting</h3>
+                    <p class="text-gray-600 text-sm mt-2">Improving night safety.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 20 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251114_092236_753.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
+                    <p class="text-gray-600 text-sm mt-2">Supporting students.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 21 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2426.JPG" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Central meeting space.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 22 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.44 PM.jpeg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Street Lighting</h3>
+                    <p class="text-gray-600 text-sm mt-2">Improving night safety.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 23 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251117_113136_075.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
+                    <p class="text-gray-600 text-sm mt-2">Supporting students.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 24 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2498.JPG" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>
+                    <p class="text-gray-600 text-sm mt-2">Central meeting space.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 25 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Infrastructure">
+                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.43 PM.jpeg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Community Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Street Lighting</h3>
+                    <p class="text-gray-600 text-sm mt-2">Improving night safety.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 26 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Education">
+                <img src="assets/images/medical_outreach/IMG_20251117_115408_131.jpg" class="h-52 w-full object-cover">
+                <div class="p-5">
+                    <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Medical Outreach</span>
+                    <!-- <h3 class="text-lg font-semibold mt-3">Scholarship Program</h3>
+                    <p class="text-gray-600 text-sm mt-2">Supporting students.</p> -->
+                </div>
+            </div>
+
+            <!-- PROJECT 27 -->
+            <div class="project-card rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition" data-category="Community">
+                <img src="assets/images/Children_Day/DSC_2780.jpg
+                " class="h-52 w-full object-cover">
                 <div class="p-5">
                     <span class="text-xs bg-umunna text-white px-3 py-1 rounded-full">Children Day </span>
                     <!-- <h3 class="text-lg font-semibold mt-3">Town Hall Development</h3>

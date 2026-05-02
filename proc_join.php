@@ -11,6 +11,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $membership = trim($_POST['membership']);
     $reason = trim($_POST['reason']);
 
+    if (!$fullname || !$email || !$phone || !$location || !$membership || !$reason) {
+        echo "<script>
+            alert('All fields are required.');
+            window.location.href = 'join';
+          </script>";
+        exit;
+    }
+
     // Validate email
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         echo "<script>

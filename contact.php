@@ -34,10 +34,10 @@
     <?php include('inc/header.php'); ?>
 
     <!-- HERO -->
-    <section class="relative h-[45vh] flex items-center justify-center text-center">
+    <section class="relative h-[55vh] flex items-center justify-center text-center">
 
         <div class="absolute inset-0">
-            <img src="assets/images/contact-hero.jpg"
+            <img src="assets/images/medical_outreach/IMG_20251119_073803_607 copy.jpg"
                 class="w-full h-full object-cover">
 
             <div class="absolute inset-0 bg-black/60"></div>

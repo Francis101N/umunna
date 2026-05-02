@@ -4,13 +4,12 @@
         <div class="flex justify-between items-center px-6 md:px-16 py-4">
 
             <!-- LOGO -->
-            <div class="flex items-center space-x-3">
-
+            <a href="home" class="flex items-center space-x-3">
                 <img src="assets/images/umunna-logo.jpeg"
                     alt="Umunna Logo"
                     class="h-20 md:h-20 w-auto object-contain">
-            </div>
-
+            </a>
+            
             <!-- DESKTOP NAV -->
             <nav class="hidden md:flex space-x-8 text-sm font-medium">
 

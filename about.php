@@ -33,10 +33,10 @@
     <?php include('inc/header.php'); ?>
 
     <!-- HERO -->
-    <section class="relative h-[45vh] flex items-center justify-center text-center">
+    <section class="relative h-[55vh] flex items-center justify-center text-center">
 
         <div class="absolute inset-0">
-            <img src="assets/images/about-hero.jpg" class="w-full h-full object-cover">
+            <img src="assets/images/medical_outreach/IMG_20251119_073803_607 copy.jpg" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-black/60"></div>
         </div>
 
@@ -55,7 +55,7 @@
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
             <div class="rounded-xl overflow-hidden shadow-sm">
-                <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.46 PM.jpeg"
+                <img src="assets/images/medical_outreach/IMG_20251115_101408_391.jpg"
                     class="w-full h-[450px] object-cover hover:scale-105 transition duration-500">
             </div>
 
@@ -226,7 +226,7 @@
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
 
-            <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 3.01.14 PM.jpeg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
+            <img src="assets/images/medical_outreach/IMG_20251117_094634_629.jpg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
             <img src="assets/images/community_outreach/DSC_2432.jpg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
             <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.55 PM (1).jpeg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
             <img src="assets/images/community_outreach/WhatsApp Image 2026-01-28 at 2.56.43 PM.jpeg" class="h-40 w-full object-cover rounded-lg hover:scale-105 transition">
