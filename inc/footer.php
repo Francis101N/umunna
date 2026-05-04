@@ -1,5 +1,5 @@
   <!-- FOOTER -->
-  <footer class="bg-[#0b1f16] text-white pt-20 pb-10 px-6 md:px-20">
+  <footer class="bg-[#144027] text-white pt-20 pb-10 px-6 md:px-20">
 
       <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
 
