@@ -157,11 +157,13 @@
     </section>
 
     <!-- HISTORY -->
+    <!-- 🟢 HISTORY SECTION -->
     <section class="py-20 px-6 md:px-20">
-
         <div class="max-w-5xl mx-auto text-center">
 
-            <h2 class="text-3xl font-bold text-umunna mb-6">Our History</h2>
+            <h2 class="text-3xl font-bold text-umunna mb-6">
+                Our History
+            </h2>
 
             <p class="text-gray-600 leading-relaxed">
                 Umunna Foundation was established with the goal of creating structured community progress.
@@ -170,19 +172,25 @@
             </p>
 
         </div>
-
     </section>
 
-    <!-- 🟢 STORY IMAGE SECTION -->
+    <!-- 🟢 STORY VIDEO SECTION -->
     <section class="py-16 px-6 md:px-20">
-
         <div class="max-w-6xl mx-auto rounded-2xl overflow-hidden shadow-lg">
 
-            <img src="assets/images/community2.jpg"
-                class="w-full h-[500px] object-cover hover:scale-105 transition duration-500">
+            <video
+                id="storyVideo"
+                class="w-full h-auto rounded-2xl"
+                preload="metadata"
+                muted
+                playsinline
+                controls>
+
+                <source src="assets/images/UMUNNA FOUNDATION care,empower,transform.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
         </div>
-
     </section>
 
     <!-- VALUES -->
@@ -318,5 +326,24 @@
 
 
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const video = document.getElementById("storyVideo");
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        }, {
+            threshold: 0.5 // plays when 50% of video is visible
+        });
+
+        observer.observe(video);
+    });
+</script>
 
 </html>
