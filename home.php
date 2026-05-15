@@ -263,7 +263,7 @@
                     <div class="relative bg-white rounded-2xl shadow-lg overflow-hidden group transition duration-300 hover:ring-2 hover:ring-umunna hover:-translate-y-2">
                         <!-- Image -->
                         <div class="h-72 overflow-hidden">
-                            <img src="assets/images/chairman7.jpeg"
+                            <img src="assets/images/chairman2.jpeg"
                                 class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                         </div>
 
@@ -278,8 +278,8 @@
                                 transparency, and impactful projects.”
                             </p>
 
-                            <h3 class="font-semibold text-lg">Managing Director</h3>
-                            <h6 class="font-semibold text-red-600">Iyk Edwin Anyadigibe</h6>
+                            <h3 class="font-semibold text-lg">Founder/ Proprietor</h3>
+                            <h6 class="font-semibold text-red-600">Mazi Iyk Edwin Anyadigibe</h6>
                             <span class="text-xs text-gray-300">Mission Statement</span>
 
                         </div>
@@ -557,12 +557,12 @@
             <div class="bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition duration-300 text-center p-8"
                 data-aos="zoom-in">
 
-                <img src="assets/images/chairman16.jpeg"
+                <img src="assets/images/chairman2.jpeg"
                     class="w-28 h-28 mx-auto rounded-full object-cover border-4 border-umunna"
                     alt="Leader 1">
 
-                <h3 class="text-lg font-bold text-black mt-5">Chairman</h3>
-                <p class="text-umunna font-medium">Iyk-Edwin Anyadigibe</p>
+                <h3 class="text-lg font-bold text-black mt-5">Founder/ Proprietor</h3>
+                <p class="text-umunna font-medium">Mazi Iyk Edwin Anyadigibe</p>
                 <p class="text-sm text-gray-600 mt-2">
                     Oversees community development strategy and decision-making.
                 </p>
@@ -573,12 +573,12 @@
             <div class="bg-gray-50 rounded-xl shadow-sm hover:shadow-xl transition duration-300 text-center p-8"
                 data-aos="zoom-in" data-aos-delay="150">
 
-                <img src="assets/images/boss-woman.jpeg"
+                <img src="assets/images/WhatsApp Image 2026-05-15 at 8.16.35 AM.jpeg"
                     class="w-28 h-28 mx-auto rounded-full object-cover border-4 border-black"
                     alt="Leader 2">
 
-                <h3 class="text-lg font-bold text-black mt-5">Vice Chairperson</h3>
-                <p class="text-umunna font-medium">Iyk- Edwin Ifeoma</p>
+                <h3 class="text-lg font-bold text-black mt-5">Co-founder and Chairperson</h3>
+                <p class="text-umunna font-medium">Mrs Ifeoma Iyk Edwin</p>
                 <p class="text-sm text-gray-600 mt-2">
                     Assists in leadership, coordination, communication, and documentation across the organization.
                 </p>

@@ -101,7 +101,7 @@
 
                 <!-- Image -->
                 <div class="h-80 overflow-hidden">
-                    <img src="assets/images/chairman7.jpeg"
+                    <img src="assets/images/chairman2.jpeg"
                         class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
                 </div>
 
@@ -116,8 +116,8 @@
                         that improve quality of life and promote sustainable progress.”
                     </p>
 
-                    <h3 class="font-semibold text-lg">Managing Director</h3>
-                    <h6 class="font-semibold text-red-600">Iyk Edwin Anyadigibe</h6>
+                    <h3 class="font-semibold text-lg">Founder/ Proprietor</h3>
+                    <h6 class="font-semibold text-red-600">Mazi Iyk Edwin Anyadigibe</h6>
                     <span class="text-xs text-gray-200">Mission Statement</span>
 
                 </div>
